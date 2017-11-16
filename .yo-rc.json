@@ -1,0 +1,9 @@
+{
+  "generator-node": {
+    "promptValues": {
+      "authorName": "C0ZEN",
+      "authorEmail": "geoffrey.testelin@gmail.com",
+      "authorUrl": "http://www.geoffreytestelin.com/"
+    }
+  }
+}
