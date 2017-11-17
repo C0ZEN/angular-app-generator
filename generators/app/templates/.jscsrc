@@ -13,7 +13,6 @@
     "disallowOperatorBeforeLineBreak": true,
     "disallowSpaceBeforeSemicolon": true,
     "disallowSpacesInCallExpression": true,
-    "disallowTrailingComma": true,
     "disallowYodaConditions": true,
     "requireCamelCaseOrUpperCaseIdentifiers": true,
     "requireCapitalizedComments": true,
@@ -23,13 +22,11 @@
     "requireSpaceAfterBinaryOperators": true,
     "requireSpaceAfterComma": true,
     "requireSpaceAfterKeywords": true,
-    "requireSpaceAfterLineComment": true,
     "requireSpaceBeforeBinaryOperators": true,
     "requireSpaceBeforeBlockStatements": true,
     "requireSpaceBeforeObjectValues": true,
     "requireSpaceBetweenArguments": true,
     "requireSpacesInForStatement": true,
-    "requireYodaConditions": true,
     "requireSpacesInConditionalExpression": {
         "afterTest": true,
         "beforeConsequent": true,
@@ -56,5 +53,5 @@
     "requirePaddingNewLinesAfterUseStrict": true,
     "requirePaddingNewLinesBeforeLineComments": true,
     "validateQuoteMarks": "'",
-    "maxErrors": 10000
+    "maxErrors": 100000
 }

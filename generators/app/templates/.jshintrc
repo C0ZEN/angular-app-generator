@@ -1,13 +1,15 @@
 {
+    "devel": true,
+    "validthis": true,
     "bitwise": true,
     "curly": true,
     "eqeqeq": false,
     "forin": true,
     "freeze": true,
     "futurehostile": true,
-    "latedef": true,
+    "latedef": false,
     "maxdepth": 6,
-    "maxerr": 1000,
+    "maxerr": 10000,
     "maxparams": 5,
     "noarg": true,
     "nocomma": false,
@@ -33,6 +35,16 @@
     "plusplus": false,
     "supernew": false,
     "globals": {
-        "angular": true
+        "angular": true,
+        "Logs": true,
+        "Utils": true,
+        "window": true,
+        "document": true,
+        "require": true,
+        "process": true,
+        "moment": true,
+        "Chance": true,
+        "_": true,
+        "Intl": true
     }
 }

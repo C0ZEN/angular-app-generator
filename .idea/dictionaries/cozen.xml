@@ -1,9 +1,45 @@
 <component name="ProjectDictionaryState">
   <dictionary name="cozen">
     <words>
+      <w>altran</w>
+      <w>autoprefix</w>
+      <w>autoprefixer</w>
+      <w>bowerrc</w>
+      <w>browserslist</w>
+      <w>cdnify</w>
+      <w>contrib</w>
+      <w>cssmin</w>
+      <w>cssnano</w>
+      <w>dest</w>
+      <w>editorconfig</w>
+      <w>filerev</w>
+      <w>gitattributes</w>
       <w>gitignore</w>
+      <w>htmlmin</w>
+      <w>imagemin</w>
+      <w>jscs</w>
       <w>jscsrc</w>
       <w>jshintrc</w>
+      <w>livereload</w>
+      <w>lodash</w>
+      <w>logex</w>
+      <w>minimatch</w>
+      <w>mkdirp</w>
+      <w>ngtemplates</w>
+      <w>phantomjs</w>
+      <w>pixrem</w>
+      <w>portail</w>
+      <w>postcss</w>
+      <w>preprocess</w>
+      <w>preprod</w>
+      <w>svgmin</w>
+      <w>tpls</w>
+      <w>uglify</w>
+      <w>usemin</w>
+      <w>webp</w>
+      <w>webrtc</w>
+      <w>wiredep</w>
+      <w>yyyy</w>
     </words>
   </dictionary>
 </component>

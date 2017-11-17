@@ -1,12 +1,22 @@
 {
     "name": "<%= appNameKebab %>",
     "version": "0.0.0",
-    "main": "",
-    "dependencies": {},
+    "dependencies": {
+        "altran-angular-lib": "http://GIT-30V-DCFR-02.pproject.altran.com/digital_project/altran-angular-lib.git#latest"
+    },
     "devDependencies": {},
-    "appPath": "",
-    "moduleName": "",
-    "overrides": {},
+    "appPath": "app",
+    "releasePath": "release",
+    "overrides": {
+        "altran-angular-lib": {
+            "main": [
+                "release/scripts/altran.js",
+                "release/styles/css/altran.css",
+                "release/styles/css/<%= theme %>.css"
+            ]
+        }
+    },
     "resolutions": {},
     "ignore": []
 }
+

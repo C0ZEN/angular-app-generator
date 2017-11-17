@@ -16,12 +16,13 @@ Then generate your new project:
 yo app
 ```
 
-## Getting To Know Yeoman
+## Development
 
- * Yeoman has a heart of gold.
- * Yeoman is a person with feelings and opinions, but is very easy to work with.
- * Yeoman can be too opinionated at times but is easily convinced not to be.
- * Feel free to [learn more about Yeoman](http://yeoman.io/).
+When you change the generator, you must link your changes with npm:
+
+```bash
+npm link
+```
 
 ## License
 

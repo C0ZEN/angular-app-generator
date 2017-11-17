@@ -1,0 +1,27 @@
+{
+    "defaultLanguage": "<%= lang %>",
+    "theme": "<%= theme %>",
+    "useStaticFilesLoader": {
+        "prefix": "languages/min/",
+        "suffix": ".min.json"
+    },
+    "html5Mode": {
+        "enabled": false,
+        "requireBase": false
+    },
+    "hashPrefix": "!",
+    "baseUrl": "http://exemple.com/",
+    "target": "dev",
+    "compile": true,
+    "logs": {
+        "enabled": true
+    },
+    "useSanitizeValueStrategy": "sanitizeParameters",
+    "localeLocationPattern": "bower_components/angular-i18n/angular-locale_{{locale}}.js",
+    "defaultTitle": "<%= appName %>",
+    "urlOtherwise": "",
+    "app": {
+        "version": "0.0.0",
+        "name": "<%= appNameKebab %>"
+    }
+}

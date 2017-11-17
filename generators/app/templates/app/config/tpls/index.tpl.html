@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html ng-app="<%= appNameCamel %>"
+      ng-strict-di="true"
+      lang="<%= lang %>">
+    <head>
+        <base>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible"
+              content="IE=9; IE=8; IE=7; IE=EDGE"/>
+        <meta name="description"
+              content="">
+        <meta name="viewport"
+              content="width=device-width, initial-scale=1">
+        <link rel="manifest"
+              href="/manifest.json">
+        <meta name="theme-color"
+              content=""/>
+
+        <!-- build:css(.) styles/vendor.css-->
+        <!-- bower:css-->
+        <!-- endbower-->
+        <!-- endbuild-->
+
+        <!-- @if target='dev' -->
+        <link rel="stylesheet"
+              href="styles/css/init-loader.min.css">
+        <link rel="stylesheet"
+              href="styles/css/<%= appNameKebab %>.min.css">
+        <!-- @endif -->
+
+        <!-- @if target='test' -->
+        <link rel="stylesheet"
+              href="styles/css/init-loader.min.css">
+        <link rel="stylesheet"
+              href="styles/<%= appNameKebab %>.min.css">
+        <!-- @endif -->
+
+        <!-- @if target='preprod' -->
+        <link rel="stylesheet"
+              href="styles/css/init-loader.min.css">
+        <link rel="stylesheet"
+              href="styles/<%= appNameKebab %>.min.css">
+        <!-- @endif -->
+
+        <!-- @if target='prod' -->
+        <link rel="stylesheet"
+              href="styles/css/init-loader.min.css">
+        <link rel="stylesheet"
+              href="styles/<%= appNameKebab %>.min.css">
+        <!-- @endif -->
+    </head>
+    <body class="no-overflow">
+
+        <!-- Main view -->
+        <ui-view></ui-view>
+
+        <!-- build:js(.) scripts/vendor.js-->
+        <!-- bower:js-->
+        <!-- endbower-->
+        <!-- endbuild-->
+
+        <!-- @if target='dev' -->
+        <script src="scripts/<%= appNameKebab %>.min.js"></script>
+        <!-- @endif -->
+
+        <!-- @if target='test' -->
+        <script src="scripts/<%= appNameKebab %>.min.js"></script>
+        <!-- @endif -->
+
+        <!-- @if target='preprod' -->
+        <script src="scripts/<%= appNameKebab %>.min.js"></script>
+        <!-- @endif -->
+
+        <!-- @if target='prod' -->
+        <script src="scripts/<%= appNameKebab %>.min.js"></script>
+        <!-- @endif -->
+
+        <!-- No script message -->
+        <noscript>
+            <span>This app require Javascript to be enabled.</span>
+            <span>Make sure to turn it on.</span>
+        </noscript>
+    </body>
+</html>
